@@ -6,7 +6,6 @@ class Root extends React.Component {
     super(props);
     this.state = {
       count: null,
-      loading: false
     };
   }
 
