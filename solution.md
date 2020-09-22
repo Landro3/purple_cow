@@ -12,3 +12,11 @@ At the initiation of this project, I took some notes for my approach to make sur
 | Any components are reusable (i.e. could have multiple copies on the same page) | Using ReactJS to make re-use of components easier, and will contain the button and counter in a single parent component |
 | The port the solution is served on is configurable and documented in the solution.md | Dockerfile will set the port to be used by Node/Express |
 
+To build docker image:
+1. Open the terminal or command prompt in the directory of the app
+2. Run the following: docker build -t landro3/purple_cow .
+
+To run the container: 
+1. Open the terminal or command prompt in the directory of the app
+2. Run the following: docker run -p 3000:3000 --name purple_cow -d landro3/purple_cow
+    - Changing the first 3000 in 3000:3000 will change the port the solution is served on
