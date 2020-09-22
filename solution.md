@@ -1,6 +1,8 @@
 # Purple Cow
 **Below is my explanation and implementation of the task provided by Fearless**
 
+## Requirements
+
 At the initiation of this project, I took some notes for my approach to make sure each requirement provided was being addressed.
 
 | Requirement | Implementation |
@@ -15,6 +17,7 @@ At the initiation of this project, I took some notes for my approach to make sur
 | Any components are reusable (i.e. could have multiple copies on the same page) | Using ReactJS to make re-use of components easier, and will contain the button and counter in a single parent component |
 | The port the solution is served on is configurable and documented in the solution.md | Dockerfile will set the port to be used by Node/Express |
 
+## Additional Notes
 **Future Updates:**
 1. Adding styling to the components would be the next phase.
     - This includes a prettier loading animation
@@ -24,6 +27,7 @@ At the initiation of this project, I took some notes for my approach to make sur
 1. With this being a proof-of-concept, I did not add styling to this application.
 2. State was added at the root component so that in the future, if additional counters were rendered, they would all update from any Hit being clicked.
 
+## Build and Run the App
 **To build docker image:**
 1. Open the terminal or command prompt in the directory of the app
 2. Run the following: docker build -t landro3/purple_cow .
