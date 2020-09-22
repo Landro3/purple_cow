@@ -31,6 +31,7 @@ At the initiation of this project, I took some notes for my approach to make sur
 **To build docker image:**
 1. Open the terminal or command prompt in the directory of the app
 2. Run the following: docker build -t landro3/purple_cow .
+    - Make sure to include the "." at the end of the command
 
 **To run the container:**
 1. Open the terminal or command prompt in the directory of the app
