@@ -9,6 +9,8 @@ ENV PORT 3000
 # Copy npm package.json
 COPY package*.json ./
 
+RUN npm install
+
 COPY . .
 
 EXPOSE 3000
