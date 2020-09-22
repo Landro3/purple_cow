@@ -18,7 +18,7 @@ At the initiation of this project, I took some notes for my approach to make sur
 **Future Updates:**
 1. Adding styling to the components would be the next phase.
     - This includes a prettier loading animation
-2. Testing using tools like Jest an Enzyme would be added to make sure the original Counter functionality was not lost.
+2. Testing using tools like Jest and Enzyme would be added to make sure the original Counter functionality was not lost.
 
 **Assumptions:**
 1. With this being a proof-of-concept, I did not add styling to this application.
